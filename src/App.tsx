@@ -99,7 +99,9 @@ function App() {
     </header>
 
     <section className="intro" id="top">
-      <div className="avatar"><span>SM</span></div>
+    <div className="avatar">
+      <img src="/images/profile.jpg" alt="Samarth Mali" />
+    </div>
       <div className="intro-copy">
         <p className="intro-overline">GAMEPLAY PROGRAMMING · C# · UNITY</p>
         <h1>Building interactive experiences through code.</h1>

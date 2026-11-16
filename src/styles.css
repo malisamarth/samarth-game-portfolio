@@ -1378,3 +1378,28 @@ body,
     max-height: 50px;
   }
 }
+
+/* Profile photo */
+.avatar {
+  overflow: hidden;
+  border-radius: 50%;
+  width: 94px;
+  height: 94px;
+  background: #0d121a;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 35%;
+  border-radius: 50%;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .avatar {
+    width: 70px;
+    height: 70px;
+  }
+}
