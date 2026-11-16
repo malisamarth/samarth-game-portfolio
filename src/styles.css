@@ -52,7 +52,7 @@ a {
 
 .identity strong {
   display: block;
-  font-size: 16px;
+  font-size: 17px;
   letter-spacing: -.04em;
 }
 
@@ -63,7 +63,7 @@ a {
 .identity small {
   display: block;
   color: #8e99a8;
-  font: 8px var(--mono);
+  font: 9px var(--mono);
   margin-top: 5px;
 }
 
@@ -93,7 +93,7 @@ a {
   align-items: center;
   gap: 5px;
   color: var(--lime);
-  font: 8px var(--mono);
+  font: 9px var(--mono);
   border: 1px solid var(--lime);
   padding: 6px 9px;
   margin-left: 5px;
@@ -123,7 +123,7 @@ a {
 }
 
 .avatar span {
-  font-size: 25px;
+  font-size: 26px;
   font-weight: 800;
   letter-spacing: -.1em;
 }
@@ -132,7 +132,7 @@ a {
   position: absolute;
   bottom: 12px;
   right: -15px;
-  font: 6px/1.4 var(--mono);
+  font: 7px/1.4 var(--mono);
   color: var(--lime);
   background: #10151d;
   padding: 3px;
@@ -140,20 +140,20 @@ a {
 
 .intro-overline,
 .section-label {
-  font: 8px var(--mono);
+  font: 9px var(--mono);
   letter-spacing: .12em;
   color: var(--lime);
 }
 
 .intro h1 {
-  font-size: clamp(20px, 3vw, 29px);
+  font-size: clamp(21px, 3vw, 30px);
   letter-spacing: -.055em;
   margin: 7px 0 8px;
   line-height: 1.15;
 }
 
 .intro-copy>p:last-child {
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.8;
   color: #a4adba;
   margin: 0;
@@ -176,13 +176,13 @@ a {
 }
 
 .section-heading h2 {
-  font-size: 14px;
+  font-size: 15px;
   margin: 0;
   letter-spacing: -.03em;
 }
 
 .section-heading>span {
-  font: 7px var(--mono);
+  font: 8px var(--mono);
   letter-spacing: .08em;
   color: #77818f;
 }
@@ -246,7 +246,7 @@ a {
 .visual-type {
   position: absolute;
   bottom: 8px;
-  font: 7px var(--mono);
+  font: 8px var(--mono);
   color: #aeb8c7;
   letter-spacing: .08em;
 }
@@ -262,7 +262,7 @@ a {
   display: flex;
   justify-content: space-between;
   gap: 6px;
-  font: 7px var(--mono);
+  font: 8px var(--mono);
   color: #8e99a8;
 }
 
@@ -278,7 +278,7 @@ a {
 }
 
 .project-title-row h3 {
-  font-size: 12px;
+  font-size: 13px;
   margin: 0;
   letter-spacing: -.025em;
 }
@@ -290,13 +290,13 @@ a {
 
 .project-role {
   display: block;
-  font-size: 8px;
+  font-size: 9px;
   color: var(--lime);
   margin-top: 4px;
 }
 
 .project-body p {
-  font-size: 8px;
+  font-size: 9px;
   line-height: 1.65;
   color: #a2aab6;
   margin: 7px 0 0;
@@ -323,9 +323,9 @@ a {
   gap: 5px;
 }
 
-.education-card b { font-size: 9px; }
-.education-card span { font-size: 9px; color: #c4cbd4; }
-.education-card small { font-size: 8px; color: #87919f; }
+.education-card b { font-size: 10px; }
+.education-card span { font-size: 10px; color: #c4cbd4; }
+.education-card small { font-size: 9px; color: #87919f; }
 
 /* TECHNICAL SKILLS */
 
@@ -347,7 +347,7 @@ a {
   border: 1px solid #a3c75d;
   color: #d4e8a5;
   padding: 5px 8px;
-  font: 7px var(--mono);
+  font: 8px var(--mono);
   background: #c7f36b08;
 }
 
@@ -369,14 +369,14 @@ a {
 }
 
 .about-section h2 {
-  font-size: 20px;
+  font-size: 21px;
   letter-spacing: -.05em;
   margin: 9px 0 12px;
 }
 
 .about-section p {
   font-family: Georgia, serif;
-  font-size: 10px;
+  font-size: 11px;
   line-height: 1.85;
   color: #365254;
   max-width: 680px;
@@ -392,7 +392,7 @@ a {
   align-items: center;
   gap: 7px;
   margin-top: 6px;
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 700;
   color: #173e3d;
   border-bottom: 1px solid #4f8883;
@@ -406,7 +406,7 @@ a {
   align-items: center;
   gap: 12px;
   color: #77818f;
-  font: 7px var(--mono);
+  font: 8px var(--mono);
   letter-spacing: .08em;
 }
 
@@ -456,7 +456,7 @@ a {
   background: #111923;
   border: 1px solid #526071;
   border-radius: 50%;
-  font-size: 25px;
+  font-size: 26px;
   line-height: 1;
 }
 
@@ -466,13 +466,13 @@ a {
 }
 
 .details-header h2 {
-  font-size: clamp(25px, 4vw, 38px);
+  font-size: clamp(26px, 4vw, 39px);
   letter-spacing: -.065em;
   margin: 9px 0 4px;
 }
 
 .details-header .details-tagline {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--lime);
   margin: 0;
 }
@@ -491,13 +491,13 @@ a {
 }
 
 .detail-section-heading h3 {
-  font-size: 13px;
+  font-size: 14px;
   margin: 0;
   letter-spacing: -.025em;
 }
 
 .detail-section-heading>span {
-  font: 7px var(--mono);
+  font: 8px var(--mono);
   letter-spacing: .1em;
   color: #7e8998;
 }
@@ -629,7 +629,7 @@ a {
   padding: 9px 11px;
 
   color: #9aa6b6;
-  font: 7px var(--mono);
+  font: 8px var(--mono);
   letter-spacing: .12em;
 
   background: #111923;
@@ -639,7 +639,7 @@ a {
 /* Scroll hint */
 
 .media-hint {
-  font: 8px var(--mono);
+  font: 9px var(--mono);
   color: #748091;
   margin: 8px 0 0;
   letter-spacing: .04em;
@@ -655,7 +655,7 @@ a {
   }
 
   .media-hint {
-    font-size: 7px;
+    font-size: 8px;
   }
 }
 
@@ -663,7 +663,7 @@ a {
 /* PROJECT INFORMATION */
 
 .detail-info .detail-description {
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.85;
   color: #aeb8c5;
   margin: 0 0 20px;
@@ -671,7 +671,7 @@ a {
 }
 
 .detail-info h4 {
-  font-size: 11px;
+  font-size: 12px;
   margin: 0 0 9px;
 }
 
@@ -679,7 +679,7 @@ a {
   padding-left: 18px;
   margin: 0;
   color: #aeb8c5;
-  font-size: 10px;
+  font-size: 11px;
   line-height: 1.9;
 }
 
@@ -698,7 +698,7 @@ a {
   padding-top: 13px;
   margin-top: 20px;
   color: #778494;
-  font-size: 9px;
+  font-size: 10px;
   line-height: 1.7;
 }
 
@@ -821,7 +821,7 @@ a {
   position: relative;
   top: 60px;
   left: 34%;
-  font-size: 22px;
+  font-size: 23px;
   margin-right: 5px;
 }
 
@@ -929,8 +929,8 @@ a {
   .project-visual { height: 175px; }
   .project-grid { gap: 15px; }
   .project-body { padding: 12px 14px 14px; }
-  .project-title-row h3 { font-size: 13px; }
-  .project-body p { font-size: 9px; }
+  .project-title-row h3 { font-size: 14px; }
+  .project-body p { font-size: 10px; }
 }
 
 /* RESPONSIVE MOBILE */
@@ -940,7 +940,7 @@ a {
   .header { height: 66px; }
   .social-nav { gap: 9px; }
   .social-nav svg { width: 12px; height: 12px; }
-  .resume-link { font-size: 7px; padding: 5px 6px; }
+  .resume-link { font-size: 8px; padding: 5px 6px; }
 
   .intro {
     grid-template-columns: 75px 1fr;
@@ -949,43 +949,43 @@ a {
   }
 
   .avatar { width: 70px; height: 70px; }
-  .avatar span { font-size: 20px; }
-  .avatar small { right: -10px; font-size: 5px; }
+  .avatar span { font-size: 21px; }
+  .avatar small { right: -10px; font-size: 6px; }
 
-  .intro h1 { font-size: 18px; }
-  .intro-copy>p:last-child { font-size: 9px; line-height: 1.7; }
-  .intro-overline { font-size: 7px; }
+  .intro h1 { font-size: 19px; }
+  .intro-copy>p:last-child { font-size: 10px; line-height: 1.7; }
+  .intro-overline { font-size: 8px; }
 
-  .section-heading h2 { font-size: 12px; }
-  .section-heading>span { font-size: 6px; }
+  .section-heading h2 { font-size: 13px; }
+  .section-heading>span { font-size: 7px; }
 
   .project-grid { gap: 8px; }
   .project-visual { height: 112px; }
   .project-body { padding: 8px; }
-  .project-mini-meta { font-size: 6px; }
-  .project-title-row h3 { font-size: 10px; }
+  .project-mini-meta { font-size: 7px; }
+  .project-title-row h3 { font-size: 11px; }
   .project-title-row svg { width: 12px; }
-  .project-role { font-size: 7px; }
-  .project-body p { font-size: 7px; line-height: 1.55; }
-  .visual-number, .visual-type { font-size: 6px; }
+  .project-role { font-size: 8px; }
+  .project-body p { font-size: 8px; line-height: 1.55; }
+  .visual-number, .visual-type { font-size: 7px; }
 
   .education-grid { gap: 8px; }
   .education-card { padding: 9px 8px; gap: 4px; }
-  .education-card b, .education-card span { font-size: 7px; }
-  .education-card small { font-size: 6px; }
+  .education-card b, .education-card span { font-size: 8px; }
+  .education-card small { font-size: 7px; }
 
   .chips { gap: 5px; }
-  .chips span { font-size: 6px; padding: 5px 6px; }
+  .chips span { font-size: 7px; padding: 5px 6px; }
 
   .about-section {
     margin: 0 -17px;
     padding: 25px 17px 27px;
   }
 
-  .about-section h2 { font-size: 18px; }
-  .about-section p { font-size: 9px; }
+  .about-section h2 { font-size: 19px; }
+  .about-section p { font-size: 10px; }
 
-  .footer { font-size: 6px; min-height: 50px; }
+  .footer { font-size: 7px; min-height: 50px; }
   .footer span:nth-child(2) { display: none; }
 
   .details-panel {
@@ -996,16 +996,16 @@ a {
   .details-header { padding: 25px 18px 17px; }
   .detail-media-section, .detail-info { padding: 18px; }
   .gallery-art { height: 220px; }
-  .media-hint { font-size: 7px; }
-  .detail-info .detail-description { font-size: 10px; }
+  .media-hint { font-size: 8px; }
+  .detail-info .detail-description { font-size: 11px; }
 }
 
 /* VERY SMALL SCREENS */
 
 @media(max-width:360px) {
   .project-visual { height: 95px; }
-  .project-body p { font-size: 6px; }
-  .project-title-row h3 { font-size: 9px; }
+  .project-body p { font-size: 7px; }
+  .project-title-row h3 { font-size: 10px; }
   .social-nav { gap: 7px; }
 }
 
@@ -1093,17 +1093,17 @@ body,
 /* Larger header typography */
 
 .identity strong {
-  font-size: 20px;
+  font-size: 21px;
   letter-spacing: -0.045em;
 }
 
 .identity small {
-  font-size: 10px;
+  font-size: 11px;
   margin-top: 6px;
 }
 
 .resume-link {
-  font-size: 9px;
+  font-size: 10px;
   padding: 8px 12px;
 }
 
@@ -1170,5 +1170,133 @@ body,
     flex: 0 0 85vw !important;
     width: 85vw !important;
     max-width: none;
+  }
+}
+
+
+/* Extra readability for project cards */
+.project-title-row h3 {
+  font-size: 16px !important;
+}
+
+.project-body p {
+  font-size: 12px !important;
+  line-height: 1.75 !important;
+}
+
+.project-role {
+  font-size: 11px !important;
+}
+
+.project-mini-meta {
+  font-size: 9px !important;
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  .project-title-row h3 {
+    font-size: 12px !important;
+  }
+
+  .project-body p {
+    font-size: 9px !important;
+  }
+
+  .project-role {
+    font-size: 9px !important;
+  }
+}
+
+
+/* Match Education, Skills and About typography with Project cards */
+
+/* Section headings */
+.section-heading h2 {
+  font-size: 16px !important;
+}
+
+.section-heading > span {
+  font-size: 8px !important;
+}
+
+/* Education */
+.education-card b {
+  font-size: 11px !important;
+}
+
+.education-card span {
+  font-size: 11px !important;
+}
+
+.education-card small {
+  font-size: 10px !important;
+}
+
+/* Technical Experience */
+.chips span {
+  font-size: 9px !important;
+  padding: 6px 9px;
+}
+
+/* About section */
+.about-section .section-label {
+  font-size: 9px !important;
+}
+
+.about-section h2 {
+  font-size: 22px !important;
+}
+
+.about-section p {
+  font-size: 12px !important;
+  line-height: 1.85 !important;
+}
+
+.about-contact {
+  font-size: 11px !important;
+}
+
+/* Footer */
+.footer {
+  font-size: 8px !important;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .section-heading h2 {
+    font-size: 14px !important;
+  }
+
+  .section-heading > span {
+    font-size: 7px !important;
+  }
+
+  .education-card b,
+  .education-card span {
+    font-size: 9px !important;
+  }
+
+  .education-card small {
+    font-size: 8px !important;
+  }
+
+  .chips span {
+    font-size: 7px !important;
+  }
+
+  .about-section h2 {
+    font-size: 20px !important;
+  }
+
+  .about-section p {
+    font-size: 10px !important;
+  }
+
+  .about-contact {
+    font-size: 10px !important;
+  }
+
+  .footer {
+    font-size: 7px !important;
   }
 }
