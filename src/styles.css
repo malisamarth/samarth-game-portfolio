@@ -1300,3 +1300,81 @@ body,
     font-size: 7px !important;
   }
 }
+
+
+/* Professional Experience Card */
+
+.education-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.education-card {
+  min-height: 98px;
+  justify-content: center;
+}
+
+.certificate-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  width: fit-content;
+  margin-top: 5px;
+  color: var(--lime);
+  font-size: 11px;
+  font-weight: 700;
+  border-bottom: 1px solid #718b4c;
+  padding-bottom: 3px;
+  transition: color .2s;
+}
+
+.certificate-link:hover {
+  color: #e1ffa5;
+}
+
+@media (max-width: 600px) {
+  .education-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.work-heading {
+  margin-top: 24px;
+}
+
+/* Work Experience card with company logo */
+
+.experience-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.experience-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.company-logo {
+  width: 125px;
+  height: auto;
+  max-height: 65px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .experience-card {
+    gap: 10px;
+  }
+
+  .company-logo {
+    width: 90px;
+    max-height: 50px;
+  }
+}

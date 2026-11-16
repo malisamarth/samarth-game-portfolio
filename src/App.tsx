@@ -116,10 +116,56 @@ function App() {
     </section>
 
     <section className="education-section">
-      <div className="section-heading"><h2>Education</h2><span>ACADEMIC BACKGROUND</span></div>
+
       <div className="education-grid">
-        <article className="education-card"><b>B.Tech in Computer Science & Engineering</b><span>Vishwakarma University, Pune</span><small>2023 — 2027</small></article>
+
+        <div className="education-column">
+          <div className="section-heading">
+            <h2>Education</h2>
+            <span>ACADEMIC BACKGROUND</span>
+          </div>
+
+          <article className="education-card">
+            <b>B.Tech in Computer Science & Engineering</b>
+            <span>Vishwakarma University, Pune</span>
+            <small>2023 — 2027</small>
+          </article>
+        </div>
+
+        <div className="education-column">
+          <div className="section-heading">
+            <h2>Work Experience</h2>
+            <span>PROFESSIONAL EXPERIENCE</span>
+          </div>
+
+          <article className="education-card experience-card">
+
+            <div className="experience-content">
+              <b>Unity Developer Intern</b>
+              <span>KidloLand Kids & Toddler Games</span>
+              <small>Game Development · Unity · C#</small>
+
+              <a
+                className="certificate-link"
+                href="YOUR_GOOGLE_DRIVE_LINK"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Certificate ↗
+              </a>
+            </div>
+
+            <img
+              className="company-logo"
+              src="https://www.idzdigital.com/img/KidlolandLogoTransparentBluetext.svg"
+              alt="KidloLand company logo"
+            />
+
+          </article>
+        </div>
+
       </div>
+
     </section>
 
     <section className="technical-section" id="skills">

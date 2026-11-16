@@ -121,4 +121,23 @@ export const projects: Project[] = [
     visual: 'runner',
     videoUrl: 'https://www.youtube.com/embed/BBgzOvZJd4Q',
   },
+
+    {
+    id: '3d-runner',
+    title: '3D Runner',
+    category: 'Gameplay',
+    year: '2025',
+    status: 'Prototype',
+    tagline: 'A focused experiment in 3D movement.',
+    description:
+      'A Unity prototype exploring a 3D runner gameplay loop and player movement.',
+    stack: ['Unity', 'C#', '3D Gameplay'],
+    highlights: [
+      'Prototyped player movement and core runner interactions.',
+      'Explored level flow and gameplay feedback.',
+    ],
+    accent: 'pink',
+    visual: 'runner',
+    videoUrl: 'https://www.youtube.com/embed/BBgzOvZJd4Q',
+  },
 ];
