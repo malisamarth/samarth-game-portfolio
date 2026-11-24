@@ -8,12 +8,21 @@ export type Project = {
 // Add real screenshot URLs to images and a YouTube embed URL or MP4 path to videoUrl when available.
 
 export const projects: Project[] = [
-  {
+
+{
     id: 'tank-wars',
     title: 'Tank Wars',
     category: 'Gameplay',
     year: '2026',
     status: 'Prototype',
+
+    images: [
+      '/images/tank-wars/8BY9Hw.png',
+      '/images/tank-wars/ELdnZH.png',
+      '/images/tank-wars/jiRWe2.png',
+      '/images/tank-wars/Xjj70r.png',
+    ],
+
     tagline: 'Top-down combat and enemy behaviour.',
     description:
       'A top-down tank shooter prototype focused on player controls, enemy encounters and a compact gameplay loop.',
@@ -26,8 +35,8 @@ export const projects: Project[] = [
     accent: 'orange',
     visual: 'tank',
     videoUrl: 'https://www.youtube.com/embed/1MiVTtmUw4I',
-  },
-  {
+},
+{
     id: 'coop-physics',
     title: 'Co-op Physics Multiplayer',
     category: 'Multiplayer',
