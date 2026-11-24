@@ -25,7 +25,7 @@ export const projects: Project[] = [
     ],
     accent: 'orange',
     visual: 'tank',
-    videoUrl: 'https://www.youtube.com/watch?v=1MiVTtmUw4I',
+    videoUrl: 'https://youtu.be/1MiVTtmUw4I',
   },
   {
     id: 'coop-physics',
